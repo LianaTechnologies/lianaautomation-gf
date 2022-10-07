@@ -48,7 +48,7 @@ You can also notify us via our support channels.
 
 Request new features and extensions and vote on existing suggestions on our official customer support channels. Our product team regularly review requests and consider them valuable for product planning.
 
-= LianaAutomation Site Tracking is awesome! Can I contribute? =
+= LianaAutomation for Gravity Forms is awesome! Can I contribute? =
 
 Yes, you can! Join in on our [GitHub repository](https://github.com/LianaTechnologies/lianaautomation-gf)
 
@@ -66,9 +66,9 @@ REST API documentation of Automation product is available at [our support site](
 = Automatic installation =
 
 Automatic installation is the easiest option -- WordPress will handle the file transfer, and you won’t need to leave your web browser. To do an automatic install of 
-LianaAutomation plugin, log in to your WordPress dashboard, navigate to the Plugins menu, and click “Add New.”
+LianaAutomation plugin, log in to your WordPress dashboard, navigate to the Plugins menu, and click "Add New."
  
-In the search field type “LianaAutomation” then click “Search Plugins”. Once you’ve found us, you can install it by clicking “Install Now” and WordPress will take it from there.
+In the search field type "Liana" then click "Search Plugins". Once you’ve found us, you can install it by clicking "Install Now" and WordPress will take it from there.
 
 = Manual installation =
 
