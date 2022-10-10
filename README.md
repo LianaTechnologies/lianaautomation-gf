@@ -7,5 +7,5 @@ This plugin provides necessary functions to integrate Gravity Forms with LianaAu
 
 ## Oneliner to create installable plugin from the repo directory
 ```
-zip -r lianaautomation-gf.zip lianaautomation-gf -x "lianaautomation-gf/.git*"
+zip -r lianaautomation-gf.zip lianaautomation-gf -x "lianaautomation-gf/.*"
 ```
