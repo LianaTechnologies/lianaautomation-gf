@@ -19,7 +19,7 @@
  *
  * @return bool
  */
-function liana_automation_gravityforms( $entry, $form ):bool {
+function liana_automation_gf( $entry, $form ):bool {
 	// Gets liana_t tracking cookie if set.
 	if ( isset( $_COOKIE['liana_t'] ) ) {
 		$liana_t = sanitize_key( $_COOKIE['liana_t'] );
@@ -276,6 +276,8 @@ function liana_automation_gravityforms( $entry, $form ):bool {
 	$response = stream_get_contents( $fp );
 	// Decode the json response.
 	$response = json_decode( $response, true );
+
+	return true;
 }
 
-add_action( 'gform_after_submission', 'liana_automation_gravityforms', 10, 2 );
+add_action( 'gform_after_submission', 'liana_automation_gf', 10, 2 );
