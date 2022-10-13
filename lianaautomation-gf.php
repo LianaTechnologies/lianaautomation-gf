@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:       LianaAutomation GF
+ * Plugin Name:       LianaAutomation for Gravity Forms
  * Description:       LianaAutomation for Gravity Forms.
  * Version:           1.0.8
  * Requires at least: 5.2

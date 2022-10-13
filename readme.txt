@@ -1,4 +1,4 @@
-=== LianaAutomation GF ===
+=== LianaAutomation for Gravity Forms ===
 Contributors: lianatechnologies, jaakkoperoliana, timopohjanvirtaliana
 Tags: automation, online store, ecommerce, e-commerce, forms
 Requires at least: 5.8
