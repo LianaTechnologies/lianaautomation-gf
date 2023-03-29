@@ -4,7 +4,7 @@ Tags: automation, online store, ecommerce, e-commerce, forms
 Requires at least: 5.8
 Tested up to: 6.1
 Requires PHP: 7.4
-Stable tag: 1.0.8
+Stable tag: 1.0.9
 License: GPL-3.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-3.0-standalone.html
 
@@ -26,8 +26,8 @@ LianaAutomation is developed and supported by Liana Technologies Oy. Join our cr
 
 = Where can I find LianaAutomation documentation and user guides? =
 
-For help setting up and configuring Liana Automation, please refer to [LianaAutomation 
-introduction](https://support.lianatech.com/lianaautomation/lianaautomation-introduction.html). 
+For help setting up and configuring Liana Automation, please refer to [LianaAutomation
+introduction](https://support.lianatech.com/hc/en-us/categories/4409287060881-LianaAutomation).
 
 = Will LianaAutomation work with my theme? =
 
@@ -35,7 +35,7 @@ Yes, LianaAutomation will work with any theme.
 
 = My site broke – what do I do? =
 
-If you noticed the error after updating a theme or plugin, there might be compatibility issues between it and LianaAutomation. If the issue appeared after updating 
+If you noticed the error after updating a theme or plugin, there might be compatibility issues between it and LianaAutomation. If the issue appeared after updating
 LianaAutomation, there could be a conflict between LianaAutomation and an outdated theme or plugin.
 
 = Where can I report bugs? =
@@ -54,7 +54,7 @@ Yes, you can! Join in on our [GitHub repository](https://github.com/LianaTechnol
 
 = Where can I find REST API documentation? =
 
-REST API documentation of Automation product is available at [our support site](https://support.lianatech.com/lianaautomation/rest-api/importing-data.html).
+REST API documentation of Automation product is available at [our support site](https://support.lianatech.com/hc/en-us/articles/5349901699229-Importing-Data).
 
 == Installation ==
 
@@ -65,14 +65,14 @@ REST API documentation of Automation product is available at [our support site](
 
 = Automatic installation =
 
-Automatic installation is the easiest option -- WordPress will handle the file transfer, and you won’t need to leave your web browser. To do an automatic install of 
+Automatic installation is the easiest option -- WordPress will handle the file transfer, and you won’t need to leave your web browser. To do an automatic install of
 LianaAutomation plugin, log in to your WordPress dashboard, navigate to the Plugins menu, and click "Add New."
- 
+
 In the search field type "Liana" then click "Search Plugins". Once you’ve found us, you can install it by clicking "Install Now" and WordPress will take it from there.
 
 = Manual installation =
 
-Manual installation method requires downloading the LianaAutomation plugin and uploading it to your web server via your favorite FTP application. The WordPress codex contains 
+Manual installation method requires downloading the LianaAutomation plugin and uploading it to your web server via your favorite FTP application. The WordPress codex contains
 [instructions on how to do this here](https://wordpress.org/support/article/managing-plugins/#manual-plugin-installation).
 
 = Updating =
@@ -80,5 +80,9 @@ Manual installation method requires downloading the LianaAutomation plugin and u
 Automatic updates should work smoothly, but we still recommend you back up your site.
 
 == Changelog ==
+
+= 1.0.9 2023-03-29 =
+* **Fixed:** Use lianaautomation_gf_options instead of lianaautomation_gravityforms_options in gform_after_submission action
+* **Fixed:** Documentation URLs
 
 = 1.0.8 2022-10-16 = Initial public release

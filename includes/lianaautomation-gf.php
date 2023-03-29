@@ -111,18 +111,18 @@ function liana_automation_gf( $entry, $form ):bool {
 	/**
 	* Retrieve Liana Options values (Array of All Options). Bail out if empty.
 	*/
-	$lianaautomation_gravityforms_options = get_option( 'lianaautomation_gravityforms_options' );
-	if ( empty( $lianaautomation_gravityforms_options ) ) {
+	$lianaautomation_gf_options = get_option( 'lianaautomation_gf_options' );
+	if ( empty( $lianaautomation_gf_options ) ) {
 		if ( defined( 'WP_DEBUG' ) && WP_DEBUG === true ) {
 			// phpcs:disable WordPress.PHP.DevelopmentFunctions
-			error_log( 'lianaautomation_gravityforms_options was empty' );
+			error_log( 'lianaautomation_gf_options was empty' );
 			// phpcs:enable
 		}
 		return false;
 	}
 
 	// The user id, integer. Bail out if empty.
-	if ( empty( $lianaautomation_gravityforms_options['lianaautomation_user'] ) ) {
+	if ( empty( $lianaautomation_gf_options['lianaautomation_user'] ) ) {
 		if ( defined( 'WP_DEBUG' ) && WP_DEBUG === true ) {
 			// phpcs:disable WordPress.PHP.DevelopmentFunctions
 			error_log( 'lianaautomation_options lianaautomation_user was empty' );
@@ -130,51 +130,51 @@ function liana_automation_gf( $entry, $form ):bool {
 		}
 		return false;
 	}
-	$user = $lianaautomation_gravityforms_options['lianaautomation_user'];
+	$user = $lianaautomation_gf_options['lianaautomation_user'];
 
 	// Hexadecimal secret string. Bail out if empty.
-	if ( empty( $lianaautomation_gravityforms_options['lianaautomation_key'] ) ) {
+	if ( empty( $lianaautomation_gf_options['lianaautomation_key'] ) ) {
 		if ( defined( 'WP_DEBUG' ) && WP_DEBUG === true ) {
 			// phpcs:disable WordPress.PHP.DevelopmentFunctions
-			error_log( 'lianaautomation_gravityforms_options lianaautomation_key was empty!' );
+			error_log( 'lianaautomation_gf_options lianaautomation_key was empty!' );
 			// phpcs:enable
 		}
 		return false;
 	}
-	$secret = $lianaautomation_gravityforms_options['lianaautomation_key'];
+	$secret = $lianaautomation_gf_options['lianaautomation_key'];
 
 	// The base url for our API installation. Bail out if empty.
-	if ( empty( $lianaautomation_gravityforms_options['lianaautomation_url'] ) ) {
+	if ( empty( $lianaautomation_gf_options['lianaautomation_url'] ) ) {
 		if ( defined( 'WP_DEBUG' ) && WP_DEBUG === true ) {
 			// phpcs:disable WordPress.PHP.DevelopmentFunctions
-			error_log( 'lianaautomation_gravityforms_options lianaautomation_url was empty!' );
+			error_log( 'lianaautomation_gf_options lianaautomation_url was empty!' );
 			// phpcs:enable
 		}
 		return false;
 	}
-	$url = $lianaautomation_gravityforms_options['lianaautomation_url'];
+	$url = $lianaautomation_gf_options['lianaautomation_url'];
 
 	// The realm of our API installation, all caps alphanumeric string. Bail out if empty.
-	if ( empty( $lianaautomation_gravityforms_options['lianaautomation_realm'] ) ) {
+	if ( empty( $lianaautomation_gf_options['lianaautomation_realm'] ) ) {
 		if ( defined( 'WP_DEBUG' ) && WP_DEBUG === true ) {
 			// phpcs:disable WordPress.PHP.DevelopmentFunctions
-			error_log( 'lianaautomation_gravityforms_options lianaautomation_realm was empty!' );
+			error_log( 'lianaautomation_gf_options lianaautomation_realm was empty!' );
 			// phpcs:enable
 		}
 		return false;
 	}
-	$realm = $lianaautomation_gravityforms_options['lianaautomation_realm'];
+	$realm = $lianaautomation_gf_options['lianaautomation_realm'];
 
 	// The channel ID of our automation. Bail out if empty.
-	if ( empty( $lianaautomation_gravityforms_options['lianaautomation_channel'] ) ) {
+	if ( empty( $lianaautomation_gf_options['lianaautomation_channel'] ) ) {
 		if ( defined( 'WP_DEBUG' ) && WP_DEBUG === true ) {
 			// phpcs:disable WordPress.PHP.DevelopmentFunctions
-			error_log( 'lianaautomation_gravityforms_options lianaautomation_channel was empty!' );
+			error_log( 'lianaautomation_gf_options lianaautomation_channel was empty!' );
 			// phpcs:enable
 		}
 		return false;
 	}
-	$channel = $lianaautomation_gravityforms_options['lianaautomation_channel'];
+	$channel = $lianaautomation_gf_options['lianaautomation_channel'];
 
 	/**
 	* General variables

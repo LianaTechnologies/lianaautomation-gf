@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       LianaAutomation for Gravity Forms
  * Description:       LianaAutomation for Gravity Forms.
- * Version:           1.0.8
+ * Version:           1.0.9
  * Requires at least: 5.2
  * Requires PHP:      7.4
  * Author:            Liana Technologies Oy
