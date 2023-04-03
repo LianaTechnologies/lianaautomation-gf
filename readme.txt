@@ -2,7 +2,7 @@
 Contributors: lianatechnologies, jaakkoperoliana, timopohjanvirtaliana
 Tags: automation, online store, ecommerce, e-commerce, forms
 Requires at least: 5.8
-Tested up to: 6.1
+Tested up to: 6.2
 Requires PHP: 7.4
 Stable tag: 1.0.9
 License: GPL-3.0-or-later
@@ -84,5 +84,6 @@ Automatic updates should work smoothly, but we still recommend you back up your 
 = 1.0.9 2023-03-29 =
 * **Fixed:** Use lianaautomation_gf_options instead of lianaautomation_gravityforms_options in gform_after_submission action
 * **Fixed:** Documentation URLs
+* **Support** Tested with WordPress 6.2
 
 = 1.0.8 2022-10-16 = Initial public release
